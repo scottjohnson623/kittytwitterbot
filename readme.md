@@ -16,13 +16,17 @@ Kitty bot waits for mentions on its username, and then if the mention contains o
 - Tweepy - for for connecting to Twitter
 - Python-dotenv - for storing API keys in .env file
 
-## How to get started
+## How to Run Your Own Kittybot
 
-- Get developer keys from Twitter and TheCatApi
-- Create .env file in root folder and add keys to .env file as follows:
-  - CONSUMER_KEY =
-  - CONSUMER_SECRET =
-  - ACCESS_TOKEN =
-  - ACCESS_TOKEN_SECRET =
-  - CAT_API_KEY =
--
+1.  Get developer keys from Twitter and TheCatApi
+2.  Create .env file in root folder and add keys to .env file as follows:
+
+- CONSUMER_KEY =
+- CONSUMER_SECRET =
+- ACCESS_TOKEN =
+- ACCESS_TOKEN_SECRET =
+- CAT_API_KEY =
+
+3. Make sure tweepy and python-dotenv are installed
+4. run bots/replybot.py
+5. Enjoy!
